@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GLTerrain - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_DEBUGUAGE" /Fp"Debug/GLTerrain.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\WORK\ALAINPETIT\CODE\GLTERRAIN20010805\global.cpp"
+"Z:\WORK\ALAINPETIT\CODE\GLTERRAIN20010805\GlRenderer.cpp"
+"Z:\WORK\ALAINPETIT\CODE\GLTERRAIN20010805\main.cpp"
+"Z:\WORK\ALAINPETIT\CODE\GLTERRAIN20010805\MathFP.cpp"
+"Z:\WORK\ALAINPETIT\CODE\GLTERRAIN20010805\PlainTerrain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1A.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GLTerrain.pdb" /debug /machine:I386 /out:"Debug/GLTerrain.exe" /pdbtype:sept 
+.\Debug\global.obj
+.\Debug\GlRenderer.obj
+.\Debug\main.obj
+.\Debug\MathFP.obj
+.\Debug\PlainTerrain.obj
+"C:\NVIDIA OpenGL SDK\lib\Release\GLUT32.LIB"
+"C:\Program Files\Microsoft Visual Studio\VC98\Lib\GLAUX.LIB"
+"C:\Program Files\Microsoft Visual Studio\VC98\Lib\OPENGL32.LIB"
+"C:\Program Files\Microsoft Visual Studio\VC98\Lib\GLU32.LIB"
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1B.tmp"
+<h3>Output Window</h3>
+Compiling...
+global.cpp
+GlRenderer.cpp
+z:\work\alainpetit\code\glterrain20010805\glrenderer.cpp(11) : fatal error C1083: Cannot open include file: 'GL/glext.h': No such file or directory
+main.cpp
+_MACROS_H_
+MathFP.cpp
+PlainTerrain.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+GLTerrain.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
